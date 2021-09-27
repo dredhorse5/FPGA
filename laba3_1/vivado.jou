@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Sep 27 23:26:31 2021
+# Process ID: 29320
+# Current directory: D:/Projects/FPGA/laba3_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16548 D:\Projects\FPGA\laba3_1\laba3_1.xpr
+# Log file: D:/Projects/FPGA/laba3_1/vivado.log
+# Journal file: D:/Projects/FPGA/laba3_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Projects/FPGA/laba3_1/laba3_1.xpr
+update_compile_order -fileset sources_1
+file mkdir D:/Projects/FPGA/laba3_1/laba3_1.srcs/constrs_1
+file mkdir D:/Projects/FPGA/laba3_1/laba3_1.srcs/constrs_1/new
+close [ open D:/Projects/FPGA/laba3_1/laba3_1.srcs/constrs_1/new/const.xdc w ]
+add_files -fileset constrs_1 D:/Projects/FPGA/laba3_1/laba3_1.srcs/constrs_1/new/const.xdc
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
