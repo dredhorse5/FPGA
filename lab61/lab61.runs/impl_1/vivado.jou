@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Oct 18 22:08:42 2021
+# Process ID: 19752
+# Current directory: D:/Projects/FPGA/lab61/lab61.runs/impl_1
+# Command line: vivado.exe -log lab61.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lab61.tcl -notrace
+# Log file: D:/Projects/FPGA/lab61/lab61.runs/impl_1/lab61.vdi
+# Journal file: D:/Projects/FPGA/lab61/lab61.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source lab61.tcl -notrace
